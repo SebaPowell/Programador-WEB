@@ -1,8 +1,94 @@
 body{
-    background-image: ;
+    background-color: lightgray;
+    font-family: 'Roboto', sans-serif;
 }
 
-h1{
-    color: red;
-    font-family: Arial;
+h1 {
+    position:absolute;
+	top: 0px;
+	left: 0%;
+	margin:0 auto;
+	height: 90px;
+	width: 975px;
+    background-color: rgb(83, 3, 3);
+    padding: 20px;
+    color: white;
+    font-size: 40px;    
+    text-align:right
+          
 }
+
+h2 {
+    background-color: rgb(241, 135, 13);
+    padding: 20px;
+    color: white;
+    font-size: 25px;    
+    text-align: left;
+}
+
+#subtitulo {
+    background-color: transparent;
+    position: relative;
+	top: 50px;
+	right: 25%;
+	margin:0 auto;
+    font-size: 30px;
+    font-style: italic;
+    text-align: right;
+}
+
+.destacado{
+    color: rgb(20, 20, 20);
+    font-weight: bold;
+}
+
+.destacado2{
+    font-style: italic;
+    font-weight: bold;
+}
+
+ul{
+    line-height: 25px;
+}
+.borde {
+    position:absolute;
+	top: 20px;
+	right: 12px;
+	margin:0 auto;
+	border: 5px solid white;
+	margin-bottom:20px;
+	}
+    
+#info{
+    left: 0%;
+    width: 975px;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    left: 5%;
+    padding-left: 30px;
+    color: rgb(20, 20, 20);
+}
+
+section{
+    position: absolute;
+    top: 108px;
+    left: 0%;
+    margin-top: 0%;
+    font-size: 18px;
+    text-align: justify;
+}
+
+section p{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+#redes{ 
+    position: absolute;
+    top: 3000px;
+    }
+
