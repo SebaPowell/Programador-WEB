@@ -64,8 +64,8 @@ body{
 }
 
 .section__info h2{
-    background-color: #2d2de2;
-    padding-left: 30px;
+    background-color: rgb(45, 45, 226, 0.5);
+    padding-left: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
     color: white;
@@ -74,16 +74,18 @@ body{
 }
 
 .section__info h3{
-    padding-left: 30px;
+    padding-left: 50px;
     font-size: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.596);
 }
 p{
     text-align: justify;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
     font-size: 15px;
+    margin-bottom: 10px;
 }
 #formacion{
     margin-top: 40px;
@@ -98,12 +100,14 @@ p{
 }
 
 .section__info ul{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
     font-size: 15px;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     line-height: 1.5;
+    list-style: none;
+    line-height: 2;
 }
 
 .destacado{
@@ -115,17 +119,15 @@ p{
 .form{
     position: relative;
     margin-top: 20px;
-    line-height: 2;
-    font-weight: bold;
     color: aliceblue;
 }
 
 .form__h2{
-    background-color: #2d2de2;
-    padding-left: 30px;
+    background-color: rgb(45, 45, 226, 0.5);
+    padding-left: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-bottom: 20px;
+    margin-top: 40px;
     color: white;
     font-size: 20px;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.596);
@@ -135,11 +137,13 @@ p{
     display: flex;
     flex-direction: column;
     width: 700px;
+    margin-top: 20px;
+    line-height: 2;
+    font-weight: bold;
 }
 
 .form__form li{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 50px;
     font-family: 'Raleway', sans-serif;
     list-style: none;
 }
@@ -184,6 +188,19 @@ p{
     opacity: 1;
 }
 
+.form button{
+    height: 30px;
+    width: 80px;
+    padding-left: auto;
+    padding-right: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.form button:hover{
+    background: aquamarine;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+}
 .footer{
     position: relative;
     background-color: #0d0d29;
