@@ -56,9 +56,10 @@ body{
 
 .section__h2{
     background-color: #2d66e2;
-    height: 50px;
     padding-left: 50px;
     padding-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 30px;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.596);
 }
@@ -108,9 +109,9 @@ body{
 
 .h2{
     background-color: #2d66e2;
-    height: 50px;
     padding-left: 50px;
     padding-top: 10px;
+    padding-bottom: 10px;
     margin-top: 40px;
     font-size: 22px;
     color: white;
