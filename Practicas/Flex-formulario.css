@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #215766;
+    font-family: 'Raleway', sans-serif;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    background: #518492;
+    margin: 50px 30px;
+    color: white;
+    padding: 0px;
+    font-size: 50px;
+    min-width: 350px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form__column{
+    margin: 30px;
+    min-width: 300px;    
+    width: 40%;
+}
+
+.form__input{
+    width: 100%;
+    padding: 10px;
+    margin: 7px 0px;
+    border: none;
+    border-bottom: 2px solid #1a3b46;
+    box-sizing: border-box;
+    background: transparent;
+    color: white;
+    min-width: 200px;
+}
+
+.form__input:focus{
+    outline: none;
+    background: #0e242b;
+    border-bottom: 3px solid #47a9c7;
+}
+
+.form__checkbox {
+    margin: 10px 0px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.596);
+}
+
+.form__checkbox label{
+    padding-right: 30px;
+}
+
+
+.form__textarea{
+    width: 100%;
+    margin: 7px 0px;
+    border: none;
+    color: white;
+    min-width: 200px;
+}
+
+.form__textarea textarea{
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #1a3b46;
+    background: transparent;
+    color: white;
+    font-family: 'Raleway', sans-serif;   
+}
+
+.form__textarea textarea:focus{
+    outline: none;
+    background: #0e242b;
+    border-bottom: 3px solid #47a9c7;
+}
+
+.form__button{
+    border: none;
+    display: flex;
+    justify-content: baseline;
+    width: 100%;
+    margin: 7px 0px;
+}
+
+.form__button button{
+    width: 50%;
+    padding: 6px;
+    height: 40px;
+    border: none;
+    background: #1a3b46;
+    color: white;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.form__button button:active{
+    outline: none;
+    background: #0e242b;
+    border-bottom: 3px solid #47a9c7;
+}
+
+.form__button button:hover{
+    outline: none;
+    background: linear-gradient(to bottom, #265868, #0d2830);
+}
+
+.form__button [type="submit"]{
+    margin-right: 3px;
+}
+
+.form__button [type="reset"]{
+    margin-left: 3px;
+}
+
+::placeholder{
+    color: aliceblue;
+    opacity: 0.5;
+    font-style: italic;
+}
