@@ -1,0 +1,51 @@
+* {
+    font-family: 'Alumni Sans', sans-serif;
+    font-weight: 200;
+}
+
+body {
+    background-color: darkgray;
+    padding: 15px;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
+    grid-auto-rows: minmax(200px, 500px);    
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-auto-flow: dense ;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /*box-shadow: 0px 0 20px rgba(0, 0, 0, 0.808);*/
+}
+
+img:first-child {
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+img:nth-child(5) {
+    grid-column: 2/3;
+    grid-row: 4/6;
+}
+
+img:nth-child(9) {
+    grid-column: 3/5;
+    grid-row: 3/4;
+}
+
+img:nth-child(17) {
+    grid-column: span 3;
+}
+
+img:nth-child() {}
+
+img:nth-child() {}
+
+img:nth-child() {}
