@@ -112,27 +112,27 @@
     <form class="form" action="mailto:seba.powell@gmail.com">
         <div class="form__column">
             <div class="form__section">
-                <input type="text" name="Nombre" placeholder="Escribe tu Nombre" class="form__input">
+                <input type="text" name="Nombre" placeholder="Escribe tu Nombre" class="form__input" required>
             </div>
 
             <div class="form__section">
-                <input type="text" name="Apellido" placeholder="Escribe tu Apellido" class="form__input">
+                <input type="text" name="Apellido" placeholder="Escribe tu Apellido" class="form__input" required>
             </div>
 
             <div class="form__section">
-                <input type="text" name="Mail" placeholder="Escribe tu Correo Electrónico" class="form__input">
+                <input type="email" name="Mail" placeholder="Escribe tu Correo Electrónico" class="form__input" required>
             </div>
 
             <div class="form__section">
-                <input type="number" name="Teléfono" placeholder="Ingresar con código de área sin 0 y número sin 15"
-                    class="form__input">
+                <input type="tel" name="Teléfono" maxlength="10" placeholder="Ingresar con código de área sin 0 y número sin 15"
+                    class="form__input" required>
             </div>
 
             <div class="form__section">
                 <div class="form__checkbox">
-                    <input type="checkbox" name="Fijo" value="Fijo">
+                    <input type="checkbox" name="Fijo" value="Fijo" required>
                     <label for="Fijo">Fijo</label>
-                    <input type="checkbox" name="Celular" value="Celular">
+                    <input type="checkbox" name="Celular" value="Celular" required>
                     <label for="Celular">Celular</label>
                 </div>
             </div>
@@ -140,7 +140,7 @@
 
         <div class="form__column">
             <div class="form__textarea">
-                <textarea name="Consultas" cols="80" rows="10" placeholder="Escribe tu Consulta"></textarea>
+                <textarea name="Consultas" cols="80" rows="10" placeholder="Escribe tu Consulta" required></textarea>
             </div>
 
             <div class="form__button">
