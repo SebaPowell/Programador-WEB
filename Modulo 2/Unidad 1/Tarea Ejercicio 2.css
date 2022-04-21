@@ -1,0 +1,58 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: darkslategray;
+    font-family: 'Alumni Sans', sans-serif
+}
+.textarea{
+    margin: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+.textarea textarea{
+    padding: 10px;
+    text-align: justify;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 25px;
+    border-radius: 10px;
+}
+::placeholder{
+    opacity: 0.5;
+    font-style: italic;
+    color: darkslategray;
+    padding: 10px;
+}
+
+.contador{
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
+}
+
+.boton{
+    position: relative;
+    height: 40px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#boton{
+    width: 100%;
+    height: 100%;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    -webkit-text-stroke: .5px black;
+    text-shadow: 5px 5px 5px black;
+    background-color: darkslateblue;
+}
