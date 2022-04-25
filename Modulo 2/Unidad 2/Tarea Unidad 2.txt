@@ -1,0 +1,12 @@
+
+Armar un diseño simple donde que incluya varios tipos de contenidos y utilidades de Boostrap. Intentar utilizar al menos un componente de cada tipo.
+
+Subir a un repositorio público en GitHub y compartir la URL del mismo.
+
+--------------------------------------
+style="background: linear-gradient(to left, rgba(214, 217, 230, 0.5), rgba(5, 0, 10, 0.5))"
+
+
+Mi nombre es Sebastián Powell, soy Diseñador Gráfico e ilustrador autodidacta. Desde que recuerdo he dibujado cada vez que encontraba un lugar donde hacerlo, hojas, paredes, los bancos del cole y la facu, etc. Hasta que hace no mucho tomé coraje y compré una tableta gráfica y así empecé con la digitalización en Photoshop. Luego pasé a digitalizar en una Tablet y probando apps logré realizar algunos de los trabajos que podrán ver si recorren esta página.
+
+Y como diría un amigo, ENJOY!!!
