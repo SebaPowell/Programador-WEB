@@ -1,0 +1,76 @@
+/*font-family: 'Montserrat', sans-serif;*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bio {
+    margin-top: 50px;
+    height: 100vh;
+    background-image: url(imagenes/Fondo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+}
+
+.bio-contenido{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafo{
+    padding: 30px 20px 15px 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+    min-width: 300px;
+    text-align: right;
+}
+
+.bio h1 {
+    font-weight: 900;
+}
+
+
+.parrafofinal{
+    font-weight: 600;
+
+}
+
+.img-fluid{
+    padding: 30px 20px;
+    min-width: 300px;
+
+}
+
+.container-acordion{
+    margin: 50px 60px;
+}
+
+.accordion-button{
+    font-weight: 600;
+    background-color: rgb(236, 233, 233);
+    border: none;
+}
+
+.container-cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+}
+
+.card img{
+    height: 24rem;
+    object-fit: cover;
+}
