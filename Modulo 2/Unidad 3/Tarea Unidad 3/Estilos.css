@@ -20,13 +20,16 @@ body {
     justify-content: center;
     align-items: center;
     min-width: 300px;
+    
 }
 
 .bio-contenido{
-    height: 80vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+
+
 }
 
 .parrafo{
@@ -34,7 +37,6 @@ body {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
-    min-width: 300px;
     text-align: right;
 }
 
@@ -45,17 +47,17 @@ body {
 
 .parrafofinal{
     font-weight: 600;
-
 }
 
 .img-fluid{
     padding: 30px 20px;
-    min-width: 300px;
-
+    margin-bottom: 50px;
 }
 
 .container-acordion{
-    margin: 50px 60px;
+    width: 100%;
+    padding: 50px 60px;
+    min-width: 300px;
 }
 
 .accordion-button{
@@ -66,11 +68,24 @@ body {
 
 .container-cards{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 30px 60px;
+    flex-wrap: wrap;
+    min-width: 300px;
+    background-image: url(imagenes/FondoInicioInvert.jpg);
+}
+
+.card{
+    width: 20rem;
+    min-width: 300px;
+    margin: 50px 20px;
+
 }
 
 .card img{
     height: 24rem;
     object-fit: cover;
+    
 }
+
+
